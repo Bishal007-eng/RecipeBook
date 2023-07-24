@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+
+.NavbarText{
+  text-transform: uppercase;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg-image{
+  position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(rgba(8,8,8,0.3), rgba(8,8,8,0.3)), url('https://img.freepik.com/free-photo/top-view-recipe-book-still-life-concept_23-2149055992.jpg?w=2000');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+
+.textContent{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleContent{
+  text-transform: uppercase ;
+  letter-spacing: 8px;
+  margin-bottom : 30px;
+  color: #046752;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 65px;
 }

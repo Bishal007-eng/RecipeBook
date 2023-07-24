@@ -5,18 +5,18 @@ import bookLogo from "../Images/bookLogo.jpg"
 export default function Navbar() {
   return (
     <>
-      <Menu borderless fixed='top'>
+      <Menu borderless fixed='top' size='big'>
         <Menu.Item>
-          <img src={bookLogo} alt="logo" style={{ width:80 , height:65}} />
+          <img src={bookLogo} alt="logo" style={{ width:"80px" , height:"65px"}} />
         </Menu.Item>
         <Menu.Item
-          name='Home'
+          name='HOME'
         />
         <Menu.Item
-          name='About'
+          name='ABOUT'         
         />
         <Menu.Item
-          name='Recipes'
+          name='RECIPES'          
         />
         <Menu.Menu position='right'>
           <Menu.Item>
