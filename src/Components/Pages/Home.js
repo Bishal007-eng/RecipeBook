@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Commons/Header'
 import { Button } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
           content="Search Recipes"
           color='green'
           size='huge'
+          as={Link}
+          to="/Recipes"
         />
       </Header>
     </div>

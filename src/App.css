@@ -31,7 +31,19 @@
   font-size: 65px;
 }
 
+.searchBox{
+  padding-top: 100px !important;
+  padding-bottom: 50px !important;
+}
 
-.About-title{
-  margin-top: 30%;
+.headingSearch{
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.searchNote{
+  color: rgb(150, 150, 150);
+}
+.note{
+  font-style: italic;
+  font-weight: 50px;
 }
