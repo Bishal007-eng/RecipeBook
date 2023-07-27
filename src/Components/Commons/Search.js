@@ -1,9 +1,15 @@
 import React, {useState} from 'react'
 import { Grid , Form , Input } from 'semantic-ui-react'
 
-export default function Search() {
+export default function Search( {setSearchedQuery}) {
 
-  const [value, setValue] = useState("")
+  const [value, setValue] = useState("");
+
+  const onFormSubmit = () => {
+    setSearchedQuery(value);
+  }
+
+
   return (
     <>
       <Grid columns={2} textAlign='center' className='searchBox'>
@@ -13,7 +19,7 @@ export default function Search() {
 
           <h4 className='note'>Note: You can have Multiple Inputs</h4>
 
-          <Form>
+          <Form onSubmit={onFormSubmit}>
             <Input fluid
               color='teal'
               icon='edit outline' 

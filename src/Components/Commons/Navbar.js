@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <>
-      <Menu borderless fixed='top' size='big'>
+      <Menu borderless fixed='top' size='huge'>
         <Menu.Item>
           <img src={bookLogo} alt="logo" style={{ width:"80px" , height:"65px"}} />
         </Menu.Item>
