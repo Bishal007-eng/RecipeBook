@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Grid , Form , Input } from 'semantic-ui-react'
 
-export default function Search( {setSearchedQuery}) {
+export default function Search( {setSearchedQuery} ) {
 
   const [value, setValue] = useState("");
 

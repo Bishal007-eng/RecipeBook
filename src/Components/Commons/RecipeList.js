@@ -9,7 +9,7 @@ export default function RecipeList({recipes , searchedQuery}) {
         content={`Recipe List for ${searchedQuery}`}
         textAlign='center'
       />
-      <Grid columns={4} doubling>
+      <Grid columns={4} doubling stackable padded>
         {
           recipes && recipes.map(recipes => (
             <Grid.Column>
