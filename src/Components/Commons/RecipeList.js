@@ -7,7 +7,7 @@ export default function RecipeList({recipes , searchedQuery}) {
     <Container>
       <Header 
         size='huge'
-        content={`Recipe List for ${searchedQuery}`}
+        content={`Recipe List for ${searchedQuery}`} 
         textAlign='center'
       />
       <Grid columns={3} doubling className='recipeDesc' >
