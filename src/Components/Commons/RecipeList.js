@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Header, Grid } from 'semantic-ui-react'
+import RecipeItems from './RecipeItems'
 
 export default function RecipeList({recipes , searchedQuery}) {
   return (
@@ -9,11 +10,11 @@ export default function RecipeList({recipes , searchedQuery}) {
         content={`Recipe List for ${searchedQuery}`}
         textAlign='center'
       />
-      <Grid columns={4} doubling stackable padded>
+      <Grid columns={3} doubling className='recipeDesc' >
         {
           recipes && recipes.map(recipes => (
             <Grid.Column>
-              hello
+              <RecipeItems recipes={recipes} />
             </Grid.Column>
           ))
         }
