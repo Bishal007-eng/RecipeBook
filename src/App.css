@@ -66,3 +66,40 @@
     margin-top: 35px !important;
   }
 }
+
+.recipeDetailContainer{
+  margin-left: 5px !important;
+}
+
+.recipeDetails{
+  padding-top: 100px !important;
+  /* align-items: left !important; */
+}
+
+.detailsImage{
+  margin-left: 70px;
+}
+
+@media (max-width: 767px){
+  .detailsImage{
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .detailsImage{
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1450px) {
+  .detailsImage{
+    margin-left: 150px;
+  }
+}
+
+p{
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
+}
