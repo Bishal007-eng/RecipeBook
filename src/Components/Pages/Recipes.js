@@ -5,7 +5,7 @@ import { getRecipes } from "../Services/getRecipes"
 
 export default function Recipes() {
 
-  const [searchedQuery , setSearchedQuery] = useState("");
+  const [searchedQuery , setSearchedQuery] = useState("Apple");
   const [recipes , setRecipes] = useState([]);
 
   useEffect(() => {
